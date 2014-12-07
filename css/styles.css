@@ -1,0 +1,13 @@
+body{margin:0;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:16px;background:#333;color:#f0f0f0}
+ul,li{list-style:none;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-weight:lighter;margin:0;padding:0}
+a{color:#8baf3d;text-decoration:none}
+a.black{color:#333}
+h1{font-size:48px}
+h2{font-size:24px}
+.hidden{display:none}
+header{background:#f0f0f0;color:#333;text-align:center;border-bottom:5px solid #8baf3d}header .logo{font-weight:lighter;font-size:30px;line-height:30px;color:inherit}header .logo img{vertical-align:middle}
+main{padding:10px 0}main .container{margin:0 auto;width:90%;max-width:800px}
+main .promo{text-align:center}main .promo img{width:100%;max-width:487px}
+main .download{text-align:center}main .download img{height:60px}
+footer{text-align:center;padding:10px 0;background:#f0f0f0;color:#333;border-top:5px solid #8baf3d}
