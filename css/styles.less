@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter;
 	margin: 0;
 	padding: 0;
+	color: @green;
 }
 
 a {
@@ -59,7 +60,8 @@ header {
 }
 
 main {
-	padding: @padding 0;
+	padding: (@padding * 4) 0;
+	text-align: center;
 
 	.container {
 		margin: 0 auto;
@@ -68,7 +70,6 @@ main {
 	}
 
 	.promo {
-		text-align: center;
 		img {
 			width: 100%;
 			max-width: 487px;
@@ -76,7 +77,6 @@ main {
 	}
 
 	.download {
-		text-align: center;
 		img {
 			height: 60px;
 		}
