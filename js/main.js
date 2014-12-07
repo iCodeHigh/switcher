@@ -1,7 +1,1 @@
-
-(function () {
-    $(function () {
-        var today = new Date();
-        $("footer").find(".year").html(today.getFullYear());
-    });
-})();
+!function(){$(function(){var a=new Date;$("footer").find(".year").html(a.getFullYear())})}();
